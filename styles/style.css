@@ -120,3 +120,28 @@ header > div.header > #btn_1 {
 .box > a{
     color:#0D1321;
 }
+main{
+    width: auto;
+}
+.support{
+    color: white;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    gap: 16px;
+}
+#text, #submit{
+    /* background-color: white; */
+}
