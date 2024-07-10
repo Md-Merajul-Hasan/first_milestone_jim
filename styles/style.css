@@ -80,3 +80,15 @@ h3{
     color:0D1321;
 
 }
+/* design of inspiration part */
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#text_part{
+    width:852px;
+    height: 113px;
+}
