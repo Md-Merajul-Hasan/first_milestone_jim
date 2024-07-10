@@ -88,6 +88,10 @@ h3{
     align-items: center;
     text-align: center;
 }
+#title_2{
+    font-size: xx-large;
+    font-weight: bold; 
+}
 #text_part{
     width:852px;
     height: 113px;
