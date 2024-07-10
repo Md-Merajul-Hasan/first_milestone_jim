@@ -14,15 +14,18 @@
     padding: 26px 221px 45px 221px;
     text-align: center;
 }
+#link_to_contact{
+    text-decoration: none;
+    font-weight:400;
+    color: #FFFFFF;
+    font-size: 20px;
+}
 #wish {
     font-size: 40px;
     font-weight: bolder;
 }
 header > div.header > #btn_1 {
     background-color: #0D1321;
-    font-weight:400;
-    color: #FFFFFF;
-    font-size: 20px;
     padding: 21px 24px ;
     border-radius: 8px;
     border: none;
@@ -142,6 +145,13 @@ main{
     height: 58px;
     gap: 16px;
 }
-#text, #submit{
-    /* background-color: white; */
+#Contact{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
 }
