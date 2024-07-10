@@ -84,16 +84,13 @@ h3{
 .inspiration{
     display: flex;
     flex-direction: column;
-    gap:30px;
+    row-gap:10px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0px 80px;
 }
 #title_2{
     font-size: xx-large;
     font-weight: bold; 
-}
-#text_part{
-    width:852px;
-    height: auto;
 }
