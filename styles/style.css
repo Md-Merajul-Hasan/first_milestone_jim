@@ -84,6 +84,7 @@ h3{
 .inspiration{
     display: flex;
     flex-direction: column;
+    gap:30px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -94,5 +95,5 @@ h3{
 }
 #text_part{
     width:852px;
-    height: 113px;
+    height: auto;
 }
