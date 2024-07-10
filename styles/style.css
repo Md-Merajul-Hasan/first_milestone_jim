@@ -1,8 +1,10 @@
+/* Use of the font azeret-mono */
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
 }
+/* design of header */
 .header {
     display:flex;
     justify-content: center;
@@ -16,14 +18,65 @@
     font-size: 40px;
     font-weight: bolder;
 }
-#btn_1 {
+header > div.header > #btn_1 {
     background-color: #0D1321;
     font-weight:400;
     color: #FFFFFF;
     font-size: 20px;
-    padding: 21px 24px;
+    padding: 21px 24px ;
     border-radius: 8px;
     border: none;
 }
+/* design of description part */
+.descrptn_1, .descrptn_2, .descrptn_3{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    align-items: center;
+}
+.des_txt {
+    text-align: left;
+    width: 477px;
+}
+.des_txt2 {
+    text-align: left;
+    width: 468PX;
+}
+#title, #sub_title{
+    text-align: center;
+}
+#title, h3{
+    font-size: xx-large;
+    font-weight: bold;
+}
+h3{
+    color:#0d132170;
+}
+.description , .boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
 
+}
+.description{
+    margin: 74px 150px 90px 150px;
+    padding:80px;
+    background-color: #0d132102;
+}
+.descrptn_1, .descrptn_2, .descrptn_3{
+    background-color: white;
+    border-radius: 16px;
+    padding:48px;
+}
+#btn_2{
+    background-color: white;
+    width: 171px;
+    height: 47px;
+    border:2px solid #0D1321;
+    font-weight: 1000;
+    padding: 12px 20px;
+    cursor: pointer;
+    color:0D1321;
 
+}
