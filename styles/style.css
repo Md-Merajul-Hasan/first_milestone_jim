@@ -155,3 +155,45 @@ ul{
     display: flex;
     gap: 24px;
 }
+@media screen and (max-width: 576px) {
+    body{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #wish{
+        font-size: 20px;
+     }
+     .description{
+        width:250px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .descrptn_1,.descrptn_2,.descrptn_3{
+        flex-direction: column;
+     }
+     .des_txt,.des_txt2{
+        width: 200px;
+     }
+     .lang_box{
+        flex-direction: column;
+        gap: 30px;
+     }
+     .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+     }
+     #name{
+        text-align: center;
+     }
+     .links{
+        justify-content: center;
+        align-items: center;
+     }
